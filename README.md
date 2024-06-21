@@ -67,7 +67,7 @@ The main aim of time series modeling is to carefully collect and rigorously stud
 of the main classes of forecasting models are: Regression analysis; Autoregression & moving averages; Support vector machines, Artificial
 neural networks, etc.
 
-Introduction to Time series forecasting: [Link 1...](http://www.forecastingprinciples.com/) ; [Link 2...](https://www.altexsoft.com/blog/business/time-series-analysis-and-forecasting-novel-business-perspectives/) ; [Link 3...]("http://www.saedsayad.com/docs/Time%20Series%20and%20Forecasting.pdf") ; [Link 4...](https://arxiv.org/ftp/arxiv/papers/1302/1302.6613.pdf)
+Introduction to Time series forecasting: [Link 1...](http://www.forecastingprinciples.com/) ; [Link 2...](https://www.altexsoft.com/blog/business/time-series-analysis-and-forecasting-novel-business-perspectives/) ; [Link 3...](http://www.saedsayad.com/docs/Time%20Series%20and%20Forecasting.pdf) ; [Link 4...](https://arxiv.org/ftp/arxiv/papers/1302/1302.6613.pdf)
 
 Examples of Time series forecasting: [Link 1...](https://www.analyticsvidhya.com/blog/2016/02/time-series-forecasting-codes-python/) ; [Link 2...](https://www.analyticsvidhya.com/blog/2018/02/time-series-forecasting-methods/) ; [Link 3...](https://towardsdatascience.com/using-lstms-to-forecast-time-series-4ab688386b1f) ; [Link 4...](https://tensorflow.rstudio.com/blog/time-series-forecasting-with-recurrent-neural-networks.html)
 
@@ -129,8 +129,7 @@ p -- total number of predicted currencies
 
 Tg -- time interval for next actual data point in seconds
 
-U -- relative time for execution of all predictions in % of time
-interval
+U -- relative time for execution of all predictions in % of time interval
 
 5\. The combined score for each model will be computed as a linear combination of the above specified metrics averaged over the studied crypto currencies. To mitigate the possibilities for cheating the competition scoring may be done at a dedicated server. Also the the finalists' models may be trained at a dedicated server. Note that this score is one single number for the whole team solution. The highest possible value of the score is most desirable. Please, have in mind that this score may be a negative number.
 
@@ -266,8 +265,7 @@ Mv(M) -- Market value of the investment at data point M (endpoint)
 
 MV(1) -- Market value at the start of the competition (10000 USD)
 
-ν0(Rp) -- Lower partial moment of return with minimum acceptable return
-= 0
+ν0(Rp) -- Lower partial moment of return with minimum acceptable return = 0
 
 2\. In order for the A.I. investor to have any practical value **Computational efficiency** will be computed as a relative time to calculate the next solution compared to the minimal time step of the next actual observation. The A.I. should be able to be executed on a regular computer but there are no restrictions for the computer on which the model is trained. Critical value is \< 1, (in other words time for calculation should be less than 300 seconds).  
 
@@ -284,8 +282,7 @@ U (t) -- relative time for execution of solution t in % of time interval
 ## 4. DATA DESCRIPTION   
 The used dataset is the same for all participants but could be enriched with any publicly available data (of course any enrichment should be diligently described). The dataset is considered a test track for tryout, evaluation, competition and comparative analysis of the A.I. investors.
 
-[You could download the dataset
-here...](https://storage.googleapis.com/datacrypto/Dataset_01-2018_03-2018/CryptoDataset.zip)
+[You could download the dataset here...](/data/)
 
 **Data transcript**
 
