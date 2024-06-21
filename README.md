@@ -15,57 +15,41 @@ Nikolov, Boryana Pelova
 
     a.  **Тhe concept of the case**
 
-    b.  [**General Assumptions for the
-        > case**](https://www.datasciencesociety.net/academia-datathon-case-the-a-i-crypto-trader/#g)
+    b.  **General Assumptions for the case**
 
-    c.  [**Level
-        > 1**](https://www.datasciencesociety.net/academia-datathon-case-the-a-i-crypto-trader/#h)
+    c.  **Level 1**
 
-    d.  [**Prediction
-        > scoring**](https://www.datasciencesociety.net/academia-datathon-case-the-a-i-crypto-trader/#i)
+    d.  **Prediction scoring**
 
-    e.  [**Level
-        > 2**](https://www.datasciencesociety.net/academia-datathon-case-the-a-i-crypto-trader/#j)
+    e.  **Level 2**
 
-    f.  [**Additional assumptions for level
-        > 2**](https://www.datasciencesociety.net/academia-datathon-case-the-a-i-crypto-trader/#k)
+    f.  **Additional assumptions for level 2**
 
-    g.  [**Investment
-        > scoring**](https://www.datasciencesociety.net/academia-datathon-case-the-a-i-crypto-trader/#l)
+    g.  **Investment scoring**
 
-4.  [**DATA
-    > DESCRIPTION**](https://www.datasciencesociety.net/academia-datathon-case-the-a-i-crypto-trader/#m)
+4.  **DATA DESCRIPTION**
 
-    a.  [**Data
-        > transcript**](https://www.datasciencesociety.net/academia-datathon-case-the-a-i-crypto-trader/#n)
+    a.  **Data transcript**
 
-    b.  [**Selected
-        > cryptocurrencies**](https://www.datasciencesociety.net/academia-datathon-case-the-a-i-crypto-trader/#o)
+    b.  **Selected cryptocurrencies**
 
-    c.  [**Possible data challenges and
-        > solutions**](https://www.datasciencesociety.net/academia-datathon-case-the-a-i-crypto-trader/#p)
+    c.  **Possible data challenges and solutions**
 
-5.  [**EXPECTED
-    > OUTPUTS**](https://www.datasciencesociety.net/academia-datathon-case-the-a-i-crypto-trader/#q)
+5.  **EXPECTED OUTPUTS**
 
-    a.  [**What should the teams prepare and
-        > upload**](https://www.datasciencesociety.net/academia-datathon-case-the-a-i-crypto-trader/#r)
+    a.  **What should the team prepare and upload**
 
-    b.  [**Technical requirements for the uploaded code and
-        > data**](https://www.datasciencesociety.net/academia-datathon-case-the-a-i-crypto-trader/#s)
+    b.  **Technical requirements for the uploaded code and data**
 
-    c.  [**Questions**](https://www.datasciencesociety.net/academia-datathon-case-the-a-i-crypto-trader/#t)
+    c.  **Questions**
 
-    d.  [**Article
-        > instructions**](https://www.datasciencesociety.net/academia-datathon-case-the-a-i-crypto-trader/#u)
+    d.  **Article instructions**]
 
-6.  [**READER ON FINANCE
-    > TERMS**](https://www.datasciencesociety.net/academia-datathon-case-the-a-i-crypto-trader/#v)
+6.  **READER ON FINANCE TERMS**
 
-    a.  [**Glossary**](https://www.datasciencesociety.net/academia-datathon-case-the-a-i-crypto-trader/#w)
+    a.  **Glossary**
 
-    b.  [**Computation considerations on portfolio significant
-        > variables**](https://www.datasciencesociety.net/academia-datathon-case-the-a-i-crypto-trader/#x)
+    b.  **Computation considerations on portfolio significant variables**
 
 **1. INTRODUCTION**
 
