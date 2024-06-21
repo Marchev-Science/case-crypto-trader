@@ -3,124 +3,31 @@
 Authors: Angel Marchev, Jr., Alexander Efremov, Petar Nikolov, Pavel
 Nikolov, Boryana Pelova
 
-1.  **INTRODUCTION**
+## 1. INTRODUCTION
 
-2.  **BUSINESS PROBLEM FORMULATION**
+In attempt to make a case which is to be somewhat universally understandable by various types of students, the case is financial time-series prediction, while making it more engaging with the hot topic of cryptocurrencies. The case integrates knowledge from various sources -- Crypto Currencies, Quantitative Finance and Machine learning. At the same time the case is stratified as the teams solving it could complete various levels -- as far as they could solve it.  
 
-    a.  **Level 1: Make a prediction model of the major cryptocurrencies' prices**
+## 2. BUSINESS PROBLEM FORMULATION
 
-    b.  **Level 2: Make an autonomous A.I. decision-maker for trading/investing.**
+The goal is to build a successful investing/trading model on the cryptocurrency markets. The data consists of time-series of various cryptocurrencies (in 1-minute steps) prices and 24 hour volumes. The data could also be enriched by the team.
 
-3.  **RESEARCH PROBLEM SPECIFICATION**
+Cryptocurrencies' portals: [Link 1...](https://www.ccn.com/) ; [Link 2...](https://www.coindesk.com/) ; [Link 3...](https://coinradar.io/) ; [Link 4...](https://coinmarketcal.com/)
 
-    a.  **Тhe concept of the case**
+Crypto guides & glossaries: [Link 1...](https://cryptominded.com/glossary-cryptocurrency-terms-need-know/) ; [Link 2...](https://buybitcoinx.com/glossary/) ; [Link 3...](https://blokt.com/cryptocurrency/terminology) ; [Link 4...](https://mycrypto.guide/)  
 
-    b.  **General Assumptions for the case**
+Cryptocurrencies data: [Link 1...](https://coinmarketcap.com/) ; [Link 2...](https://www.blockchain.com/) ; [Link 3...](https://www.cryptocompare.com/) ; [Link 4...](https://bitcoinwisdom.com/) ; [Link 5...](https://coinlib.io/)  
 
-    c.  **Level 1**
+The case has two levels of difficulty -- in order to go to start solving the next level, you would need to complete the previous:
 
-    d.  **Prediction scoring**
+-   **LEVEL 1:** Make a prediction model of the major cryptocurrencies' prices
 
-    e.  **Level 2**
+The process of investment could be analyzed in several consecutive phases, which are processes of transforming information. First are the input processes -- from the environment, from the current state of the investment and from the investors' goals. Using these inputs, the next phase is a predictor for forecasting/estimating the expected values for the significant variables and the external factors. Statistical analysis of past portfolio structure is also necessary. The prediction model should be able to forecast the prices of the major cryptocurrencies throughout the most volatile periods with some acceptable accuracy, utilizing all available information (including additional enrichment of data) for one period ahead.
 
-    f.  **Additional assumptions for level 2**
+-   **LEVEL 2:** Make an autonomous A.I. decision-maker for trading/investing.  
 
-    g.  **Investment scoring**
+Autonomous investment is a concept which implies that the process of investment management should be conducted by and self-maintained by non-human entity. The autonomous investment corresponds to the ever-faster changing investment environment accelerated by the rapid development of the communicational and computational abilities of the modern computer. So as an effort to keep up with the technological advancements in the area as well as trying to keep the playing field level, there is now a new tendency among researchers to propose autonomous solutions for trading (while of course making it harder and harder for human entities to participate). The general approach preached by the authors of the current case is based on the idea of machine learning. The A.I system should be able to make use of the available data (including the predictions from level 1) to form and simulate a viable investment strategy, working on its own for the whole period of supplied data.
 
-4.  **DATA DESCRIPTION**
-
-    a.  **Data transcript**
-
-    b.  **Selected cryptocurrencies**
-
-    c.  **Possible data challenges and solutions**
-
-5.  **EXPECTED OUTPUTS**
-
-    a.  **What should the team prepare and upload**
-
-    b.  **Technical requirements for the uploaded code and data**
-
-    c.  **Questions**
-
-    d.  **Article instructions**]
-
-6.  **READER ON FINANCE TERMS**
-
-    a.  **Glossary**
-
-    b.  **Computation considerations on portfolio significant variables**
-
-**1. INTRODUCTION**
-
-In attempt to make a case which is to be somewhat universally
-understandable by various types of students, the case is financial
-time-series prediction, while making it more engaging with the hot topic
-of cryptocurrencies. The case integrates knowledge from various sources
--- Crypto Currencies, Quantitative Finance and Machine learning. At the
-same time the case is stratified as the teams solving it could complete
-various levels -- as far as they could solve it.
-
-**2. BUSINESS PROBLEM FORMULATION**
-
-The goal is to build a successful investing/trading model on the
-cryptocurrency markets. The data consists of time-series of various
-cryptocurrencies (in 1-minute steps) prices and 24 hour volumes. The
-data could also be enriched during the datathon by the teams.
-
-Cryptocurrencies' portals: [Link 1...](https://www.ccn.com/) ; [Link
-2...](https://www.coindesk.com/) ; [Link
-3...](https://coinradar.io/) ; [Link 4...](https://coinmarketcal.com/)
-
-Crypto guides & glossaries: [Link
-1...](https://cryptominded.com/glossary-cryptocurrency-terms-need-know/) ; [Link
-2...](https://buybitcoinx.com/glossary/) ; [Link
-3...](https://blokt.com/cryptocurrency/terminology) ; [Link
-4...](https://mycrypto.guide/)
-
-Cryptocurrencies data: [Link 1...](https://coinmarketcap.com/) ; [Link
-2...](https://www.blockchain.com/) ; [Link
-3...](https://www.cryptocompare.com/) ; [Link
-4...](https://bitcoinwisdom.com/) ; [Link 5...](https://coinlib.io/)
-
-The case has two levels of difficulty -- in order to go to start solving
-the next level, the students would need to complete the previous:
-
--   **LEVEL 1:** Make a prediction model of the major cryptocurrencies'
-    > prices
-
-The process of investment could be analyzed in several consecutive
-phases, which are processes of transforming information. First are the
-input processes -- from the environment, from the current state of the
-investment and from the investors' goals. Using these inputs, the next
-phase is a predictor for forecasting/estimating the expected values for
-the significant variables and the external factors. Statistical analysis
-of past portfolio structure is also necessary. The prediction model
-should be able to forecast the prices of the major cryptocurrencies
-throughout the most volatile periods with some acceptable accuracy,
-utilizing all available information (including additional enrichment of
-data) for one period ahead.
-
--   **LEVEL 2:** Make an autonomous A.I. decision-maker for
-    > trading/investing.
-
-Autonomous investment is a concept which implies that the process of
-investment management should be conducted by and self-maintained by
-non-human entity. The autonomous investment corresponds to the
-ever-faster changing investment environment accelerated by the rapid
-development of the communicational and computational abilities of the
-modern computer. So as an effort to keep up with the technological
-advancements in the field as well as trying to keep the playing field
-level, there is now a new tendency among researchers to propose
-autonomous solutions for trading (while of course making it harder and
-harder for human entities to participate). The general approach preached
-by the authors of the current case is based on the idea of machine
-learning. The A.I system should be able to make use of the available
-data (including the predictions from level 1) to form and simulate a
-viable investment strategy, working on its own for the whole period of
-supplied data.
-
-**3. RESEARCH PROBLEM SPECIFICATION**
+## 3. RESEARCH PROBLEM SPECIFICATION
 
 This section consists of problem description from data science point of
 view. It is meant to assist the teams to what general directions should
