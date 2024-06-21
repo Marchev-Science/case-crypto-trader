@@ -67,7 +67,7 @@ The main aim of time series modeling is to carefully collect and rigorously stud
 of the main classes of forecasting models are: Regression analysis; Autoregression & moving averages; Support vector machines, Artificial
 neural networks, etc.
 
-Introduction to Time series forecasting: [Link 1...](http://www.forecastingprinciples.com/) ; [Link 2...](https://www.altexsoft.com/blog/business/time-series-analysis-and-forecasting-novel-business-perspectives/) ; [Link 3...](http://www.saedsayad.com/docs/Time Series and Forecasting.pdf) ; [Link 4...](https://arxiv.org/ftp/arxiv/papers/1302/1302.6613.pdf)
+Introduction to Time series forecasting: [Link 1...](http://www.forecastingprinciples.com/) ; [Link 2...](https://www.altexsoft.com/blog/business/time-series-analysis-and-forecasting-novel-business-perspectives/) ; [Link 3...]("http://www.saedsayad.com/docs/Time%20Series%20and%20Forecasting.pdf") ; [Link 4...](https://arxiv.org/ftp/arxiv/papers/1302/1302.6613.pdf)
 
 Examples of Time series forecasting: [Link 1...](https://www.analyticsvidhya.com/blog/2016/02/time-series-forecasting-codes-python/) ; [Link 2...](https://www.analyticsvidhya.com/blog/2018/02/time-series-forecasting-methods/) ; [Link 3...](https://towardsdatascience.com/using-lstms-to-forecast-time-series-4ab688386b1f) ; [Link 4...](https://tensorflow.rstudio.com/blog/time-series-forecasting-with-recurrent-neural-networks.html)
 
@@ -83,7 +83,7 @@ for testing out of the supplied data, with each testing period consisting of 24 
 prediction is to the actual data for the whole period. It expresses accuracy as a percentage, with the smallest possible value being most
 desirable:
 
-![](/img/image2.png|width=100)
+![](/img/image2.png)
 
 Where:
 
@@ -95,7 +95,7 @@ n -- total number of periods considered for evaluation
 
 2\. The **directional symmetry** **(DS)** statistic gives the percentage of occurrences in which the sign of the change in value from one time period to the next is the same for both the actual and predicted time series. The DS statistic is a measure of the performance of a model in predicting the direction of value changes. The case DS = 100 % would indicate that a model perfectly predicts the direction of change of a time series from one time period to the next. The desirable score here should be higher than 50%.
 
-![](/img/image3.png|width=100)
+![](/img/image3.png)
 
 Where:
 
@@ -107,7 +107,7 @@ n -- total number of periods considered for evaluation
 
 3\. As an additional and necessary characteristic of the prediction model will be calculated stability over the testing sets of periods. The stability will be measured by **coefficient of variation of the mean absolute percentage error. **Coefficient of variation is a relative measure of dispersion that corresponds to standard deviation, but it is expressed in percentage terms, which means it could be compared across different prediction models. The coefficient would be computed among the values of MAPE for the various testing sets of periods. The desired value should be less than 1.
 
-![](/img/image4.png|width=100)
+![](/img/image4.png)
 
 Where:
 
@@ -119,7 +119,7 @@ m -- total number of testing sets
 
 4\. In order for the prediction models to have any practical value **Computational efficiency** will be computed as a relative time to calculate the next prediction compared to the minimal time step of the next actual observation. The model should be able to be executed on a regular computer (1 cpu 2 GhZ, 4 GB RAM will be assumed) but there are no restrictions for the computer on which the model is trained. Desired value is minimum possible.
 
-![](/img/image5.png|width=100)
+![](/img/image5.png)
 
 Where:
 
@@ -134,7 +134,7 @@ interval
 
 5\. The combined score for each model will be computed as a linear combination of the above specified metrics averaged over the studied crypto currencies. To mitigate the possibilities for cheating the competition scoring may be done at a dedicated server. Also the the finalists' models may be trained at a dedicated server. Note that this score is one single number for the whole team solution. The highest possible value of the score is most desirable. Please, have in mind that this score may be a negative number.
 
-![](/img/image6.png|width=100)
+![](/img/image6.png)
 
 Where: Z -- combined score D -- mean directional symmetry over the different testing periods M -- mean MAPE over the different testing periods R -- generalized coefficient of variation U -- relative time for execution of all predictions in % of time interval  
 
@@ -176,7 +176,7 @@ In order to define the case for Level 2, additional assumptions about the tradin
 
 -   if the investment value reaches 0 USD (or real return of -100%), the  investor is insolvent/ bankrupt (none-the-less you should keep the  results even from these tryouts as they are usually useful  experiments);
 
-![](/img/image7.png|width=100)
+![](/img/image7.png)
 
 Where:
 
@@ -208,7 +208,7 @@ Assumptions on simulation the market frictions:
 
 -   all trades are charged 0.25% of the turnover of the trade;
 
-![](/img/image8.png|width=100)
+![](/img/image8.png)
 
 Where:
 
@@ -230,7 +230,7 @@ Bf -- exchange fee (0.0025)
 
 -   Rationalizing the transactions -- due to the various market  frictions it is rational that before realizing a transaction the  new desired investment structure (computed at period t) is  compared to the old investment structure (computed at period t-1),  so that the new market order trades only the differences.
 
-![](/img/image9.png|width=100)
+![](/img/image9.png)
 
 Where:
 
@@ -252,7 +252,7 @@ Nui (t) -- equivalent number of units of asset i at moment t
 
 The risk adjusted return should be computed by using an asymmetric measure modified from Sortino ratio (Frank A. Sortino and Robert van der Meer. "Downside Risk." Journal of Portfolio Management. Vol. 17, No. 5, Spring 1991, pp. 27--31). The asymmetric measures calculate the risk far more precisely, but require at least twice as many data points for computing a robust estimation. Desired value is maximum possible.
 
-![](/img/image10.png|width=100)
+![](/img/image10.png)
 
 Where:
 
@@ -271,7 +271,7 @@ MV(1) -- Market value at the start of the competition (10000 USD)
 
 2\. In order for the A.I. investor to have any practical value **Computational efficiency** will be computed as a relative time to calculate the next solution compared to the minimal time step of the next actual observation. The A.I. should be able to be executed on a regular computer but there are no restrictions for the computer on which the model is trained. Critical value is \< 1, (in other words time for calculation should be less than 300 seconds).  
 
-![](/img/image11.png|width=100)
+![](/img/image11.png)
 
 Where:
 
@@ -471,7 +471,7 @@ Diversification
 **Computation considerations on portfolio significant
 variables** The **mathematical description of a portfolio** is in the form of vector consisting of k+1 positions each with respective weights, where k is the total number of assets and the additional position is the cash position c(t). For unwanted positions the values are set to 0. Not invested funds are always assumed to be in the cash position. The sum of all weights is equal to 1.00. In brief the mathematical description of an investment portfolio is a k+1-dimensional vector of weights summing to 1.00 (i.e. a singular simplex).
 
-![](/img/image12.png|width=100)
+![](/img/image12.png)
 
 where:
 
@@ -482,7 +482,7 @@ c(t) -- relative weight of the cash position at discrete time (t)
 wi(t)- relative weight of i-th asset at discrete time (t), subject to
 (no short positions):
 
-![](/img/image13.png|width=100)
+![](/img/image13.png)
 
 To calculate **return of each asset **at the discrete time t the
 particular case is considered, where:
@@ -493,7 +493,7 @@ particular case is considered, where:
 
 -   Besides the return derived from price change, there are other forms  of return of a asset arising during the time of investing. These  include airdrops, forks, rewards, burns and etc. All these must be  estimated as financial inflow or outflow per one unit of currency  (e.g. if while holding a position there is an airdrop of z amount  per unit, then this is a positive return of z).
 
-![](/img/image14.png|width=100)
+![](/img/image14.png)
 
 where:
 
@@ -510,7 +510,7 @@ t -- discrete time of return.
 
  **Return of an investment portfolio **is calculated as a weighted average of the returns of all included assets. The weights correspond to the configuration of the portfolio -- the allocated investment in each position. The sum of all weights (including cash position) is always equal to 1. The return of a cash position is normally assumed 0.
 
-![](/img/image15.png|width=100)
+![](/img/image15.png)
 
 where:
 
@@ -523,7 +523,7 @@ wi(t) -- relative weight of position i at the discrete time t
 There are several approaches to calculating **asset risk**. The dominant concept is to use variance and/or standard deviation and/or volatility
 as a measure of risk. A good case could be built around using information entropy as a risk measure of a portfolio. So measuring the risk of an individual asset may be formulated as function of historical data of the return of asset:
 
-![](/img/image16.png|width=100)
+![](/img/image16.png)
 
 where:
 
@@ -537,13 +537,12 @@ risk
 No matter what measure is used for **portfolio risk**, there is a strong agreement among authors that "the risk of a portfolio is not a weighted
 average of the risks of all included assets" (Jones, 1994, p. 573). The risk of a portfolio depends not only on the risks of every included asset, but also on the mutual dependence (interdependence) between and among the assets. Cash position is assumed to have a risk of 0. An example approach to measure portfolio risk is described below, where there are two additive terms -- one for weighted average of the risks of included assets and the other for calculating pair by pair the interdependence of the assets.
 
-![](/img/image17.png|width=100)
+![](/img/image17.png)
 where:
 
 Vp(t) -- risk of the portfolio p at the discrete time t
 
 Vi(t) -- risk of the asset i at the discrete time t
 
-ρ(Vi(t),Vj(t))- measure for interdependence of the assets i and j at the
-discrete time t
+ρ(Vi(t),Vj(t))- measure for interdependence of the assets i and j at the discrete time t
 
